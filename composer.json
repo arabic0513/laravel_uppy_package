@@ -1,0 +1,24 @@
+{
+  "name": "arabic0513/laravel_uppy",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ArabicDev",
+      "email": "sardoryusupov230@gmail.com"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Arabic0513\\Uppy\\Providers\\UppyServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Arabic0513\\Uppy\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
